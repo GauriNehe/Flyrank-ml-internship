@@ -1,5 +1,6 @@
 # Predicting Content Decline: A Refresh Prioritization Model for Search-Driven Content
-
+**Gauri Nehe**
+*FlyRank AI Internship — Machine Learning Track*
 ## Abstract
 
 Content teams with limited review time need a way to prioritize which pages to refresh first, out of a large pool of published content. This paper asks: which pages should a content/SEO team prioritize for refresh review, given a decline signal, to support that decision? Using ~9.8 million rows of production search performance data from the FlyRank internship warehouse, we trained a Random Forest classifier on December 2025 features (impressions, clicks, search position, age) to predict which pages would show declining visibility by March 2026. The model achieved a Precision@50 of 1.000 and AUC of 0.933–0.935, compared to a rule-based baseline's Precision@50 of 0.000 and AUC of 0.627. These results support using the model as a decision-support tool for refresh prioritization, though the label is a proxy for decline rather than a causal signal, and the model has not been validated on any window beyond this single historical panel.
